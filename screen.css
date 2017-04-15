@@ -46,7 +46,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  font-family: Verdana;
+  font-family: Georgia;
   color: #FFFFFF; }
 
 a {
@@ -58,7 +58,7 @@ a {
   padding: 50px; }
 
 h1 {
-  font-family: Verdana;
+  font-family: Georgia;
   font-size: 3em;
   color: #23D9F1;
 }
