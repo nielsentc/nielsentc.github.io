@@ -61,8 +61,24 @@ h1 {
   font-family: "Times New Roman";
   font-size: 3em;
   color: #23D9F1;
+  color: cyan;
 }
 
 body {
   background-color: #2a2a2a;
+}
+
+.project img {
+  width: 550px;
+  height: 500px;
+}
+
+.project {
+  border: 1px solid slateblue;
+  padding: 10px;
+}
+
+.project h2 {
+  font-size: 2em;
+  float: right;
 }
