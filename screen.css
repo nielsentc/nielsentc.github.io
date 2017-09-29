@@ -65,6 +65,16 @@ h1 {
   text-align: center;
 }
 
+.titleSpace {
+  margin: 50px;
+}
+
+h2 {
+  color: orange;
+  font-size: 2em;
+  text-align: center;
+}
+
 body {
   background-color: #2a2a2a;
 }
@@ -82,4 +92,8 @@ body {
 .project h2 {
   font-size: 2em;
   float: right;
+}
+
+.space {
+  margin-top:150px;
 }
