@@ -59,9 +59,10 @@ a {
 
 h1 {
   font-family: "Times New Roman";
-  font-size: 3em;
+  font-size: 4em;
   color: #23D9F1;
   color: cyan;
+  text-align: center;
 }
 
 body {
