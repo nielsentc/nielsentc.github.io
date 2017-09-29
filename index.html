@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8" />
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <title>Tyler Nielsen</title>
   </head>
+
   <body class="index">
+
     <div class="space"></div>
     <div id="main" role="main">
       <h1>Tyler Nielsen<br></h1>
@@ -13,7 +16,7 @@
       <h2>Writer, Programmer,<br>& Former Toddler</h2>
       <div class="titleSpace"></div>
 
-      <p1 align="center"><br>A portfolio tracking my experience with programming. 
+      <!--<p1 align="center"><br>A portfolio tracking my experience with programming. 
         I am currently an English and Computer Science major at OSU Cascades. <br>
         My dream is to get involved in game development and secondary education.<br><br><br></p1>
 
@@ -26,6 +29,53 @@
       <img src="randomWalk.png">
       <h2>Random Walk</h2>
       <p>My flagship project was a simulation to demonstrate the effects of Brownian motion in using Visual Studio. </p>
+    </div>-->
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
     </div>
+    
+    <div id="London" class="tabcontent">
+      <h3>Bio Header</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <h3>Writing Header</h3>
+      <p>Paris is the capital of France.</p> 
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+      <h3>Programs Header</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+    <script>
+    
+    function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
+
+    </script>
+
   </body>
 </html>
