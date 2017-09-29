@@ -19,7 +19,11 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  line-height: 1; 
+  font-family: "Times New Roman";
+  color: #FFFFFF; 
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
 ol, ul {
   list-style: none; }
@@ -44,12 +48,6 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
-
-body {
-  font-family: "Times New Roman";
-  color: #FFFFFF; 
-  background-color: rgba(0, 0, 0, 0.9);  
-}
 
 a {
   color: #0388a6; }
