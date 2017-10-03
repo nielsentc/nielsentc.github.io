@@ -75,12 +75,19 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: orange;
+  font-size: 1.5em;
+}
+
 .project img {
-  width: 550px;
-  height: 500px;
+  width: 25%;
+  height: 25%;
 }
 
 .project {
+  width: 50%;
+  height: 50%;
   border: 1px solid slateblue;
   padding: 10px;
 }
