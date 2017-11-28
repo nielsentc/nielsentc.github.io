@@ -81,7 +81,7 @@ h3 {
 }
 
 .project img {
-  width: 25%;
+  width: 40%;
   height: 25%;
 }
 
@@ -95,6 +95,10 @@ h3 {
 .project h2 {
   font-size: 2em;
   float: right;
+}
+
+.project a {
+  position: relative;
 }
 
 .poem {
